@@ -64,7 +64,7 @@ function side1m(){
         var itemleft = parseInt($(alla1[i]).css('width')) * (i+1);
         var chktop = Math.floor(parseInt($(alla1[i].parentElement).css('top'))) - Math.floor(event.touches[0].clientY + adjustt + (2*vw));
         var chkleft = Math.floor(parseInt($(alla1[i].parentElement).css('left'))+ adjustp+itemleft) - Math.floor(event.touches[0].clientX )
-                if(chktop>-26 && chktop <26){
+                if(chktop>-20 && chktop <20){
                     if(chkleft>-8 && chkleft<8){
                         part=true
                         if(i>0){
@@ -118,7 +118,7 @@ function side2m(){
         var itemleft = parseInt($(alla2[i]).css('width')) * (i+1);
         var chktop = Math.floor(parseInt($(alla2[i].parentElement).css('top'))) - Math.floor(event.touches[0].clientY + adjustt + (2*vw));
         var chkleft = Math.floor(parseInt($(alla2[i].parentElement).css('left'))+ adjustp+itemleft) - Math.floor(event.touches[0].clientX )
-                if(chktop>-26 && chktop <26){
+                if(chktop>-20 && chktop <20){
                     if(chkleft>-8 && chkleft<8){
                         part=true
                         if(i>0){
@@ -172,7 +172,7 @@ function side3m(){
         var itemleft = parseInt($(alla3[i]).css('width')) * (i+1);
         var chktop = Math.floor(parseInt($(alla3[i].parentElement).css('top'))) - Math.floor(event.touches[0].clientY + adjustt + (2*vw));
         var chkleft = Math.floor(parseInt($(alla3[i].parentElement).css('left'))+ adjustp+itemleft) - Math.floor(event.touches[0].clientX )
-                if(chktop>-26 && chktop <26){
+                if(chktop>-20 && chktop <20){
                     if(chkleft>-8 && chkleft<8){
                         part=true
                         if(i>0){
